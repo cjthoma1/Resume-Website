@@ -5,10 +5,20 @@ header nav{
 header p {
   padding: 18px;
   margin: 0;
+  color: snow;
+}
+header h2{
+	color: snow;
 }
 
 nav i {
 	display: flex;
 	padding: 10px;
 	margin: 0;
+	color: white;
+}
+.container{
+	background-color: navy;
+	border: 1px solid black;
+	width: 100%;
 }
