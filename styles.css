@@ -1,28 +1,14 @@
-.education{
-	font-family: verdana;
-	background-color:white;
-	text-align:center;
-}
-.exp{
-	font-family: verdana;
-	background-color:white;
-}
-ul{
-	list-style-type: square;
-	display:inline-block;
-
-}
-.ref{
-	font-family:"Times New Roman", Times, serif;
-	font-size: 150%;
-	margin:auto;		
-}
-
- header nav{
+header nav{
 	 display: flex;
 	 justify-content: flex-end
 }
 header p {
-  padding: 20px;
+  padding: 18px;
   margin: 0;
+}
+
+nav i {
+	display: flex;
+	padding: 10px;
+	margin: 0;
 }
