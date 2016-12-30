@@ -1,5 +1,4 @@
-header{
-}
+
 header nav{
 	 display: flex;
 	 justify-content: flex-end
@@ -17,7 +16,7 @@ nav i {
 	margin: 0;
 }
 .container {
-	width: 100%;
+	/*width: 100%;*/
 }
 .col-sm-12{
 	justify-content: center;
@@ -25,12 +24,15 @@ nav i {
 }
 .jumbotron {
 	display: flex;
- align-items: center;
- background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");
- background-size: cover;
- height: 500px;
- color: #ffffff;
+ 	align-items: center;
+ 	background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");
+ 	background-size: cover;
+ 	height: 500px;
+ 	color: #ffffff;
 }
 .jumbotron h3 {
 	font-size: 40px;
+}
+footer p{
+	font-size: 18px;
 }
