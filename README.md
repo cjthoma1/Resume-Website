@@ -2,7 +2,7 @@
 
 Resume website written in HTML/CSS
 
-* Built with Bootstrap and Sass
+* Includes Bootstrap and Font Awesome
 * This website will give the user an understanding of: 
 	Who I am 
 	What my skills are 
