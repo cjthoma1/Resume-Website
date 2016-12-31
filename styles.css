@@ -4,18 +4,19 @@ header nav {
 	 justify-content: flex-end;
 }
 header p {
-  padding: 18px;
+  padding: 15px;
   margin: 0;
 }
+
 header.container {
-	/*width: 100%;*/
-	position: relative;
+	width: 100%;
+	height: 80px;
 }
-.keep{
-	position: fixed;
-}
+
 header div.row { 
-	/*position: fixed;*/
+	background-color: white;
+	width: 100%;
+	position: fixed;
 }
 
 nav i {
