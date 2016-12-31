@@ -22,7 +22,7 @@ nav i {
 	color: navy;
 }
 .jumbotron {
-	margin-top: 70px;
+	margin-top: 63px;
 	display: flex;
  	align-items: center;
  	background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");
@@ -53,11 +53,14 @@ nav i {
 li.listTitle{
 	font-weight: bold;
 	font-size: 20px;
+	margin-top: 12px;
+	margin-left: 42px;
+	color: navy;
 }
 .skills li {
-	text-align: center;
+	/*text-align: center;*/
 	list-style: none;
-	padding: 2.7px;
+	padding: 2.0px;
 	font-size: 17px;
 }
 img{
@@ -87,7 +90,7 @@ figure h4{
 
 hr.headLine {
 	color: #4797B4;
-    margin: 15px auto 30px;
+    margin: 14px auto 30px;
     padding: 0;
     max-width: 250px;
     border: 0;
