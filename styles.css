@@ -10,19 +10,24 @@ header p {
 
 header.container {
 	width: 100%;
-	height: 80px;
+	margin-bottom: 80px;
 }
 
 header div.row { 
-	background-color: white;
+	/*background-color: white;*/
+	background-color: #4797B4;
+	color: white;
 	width: 100%;
 	position: fixed;
+	padding-left: 155px;
+	padding-right: 150px;
 }
 
 nav i {
 	display: flex;
 	padding: 10px;
 	margin: 0;
+	color: black;
 }
 .about{
 	text-align: center;
@@ -37,14 +42,27 @@ nav i {
 	font-size: 28px;
 	font-weight: bold;
 }
-.skills{
-	justify-content: center;
-	font-size: 15px;
-	display: flex;
+li.listTitle{
+	font-weight: bold;
+	font-size: 20px;
 }
+.skills li {
+	text-align: center;
+	list-style: none;
+	padding: 2.7px;
+	font-size: 17px;
+}
+
 .break{
-	height: 200px;
-	border: 2px solid black;
+    /* Set a specific height */
+	min-height: 200px;
+	/* choose a image*/
+ 	background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -55,10 +73,27 @@ nav i {
  	background-size: cover;
  	height: 430px;
  	color: #ffffff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .jumbotron h3 {
 	font-size: 40px;
 }
 footer p{
 	font-size: 18px;
+	clear: both;
+}
+.parallax {
+    /* The image used */
+    background-image: url("");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
