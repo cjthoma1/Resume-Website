@@ -1,37 +1,44 @@
-
-header nav {
-	 display: flex;
-	 justify-content: flex-end;
-}
-header p {
-  padding: 15px;
-  margin: 0;
-}
-
-header.container {
-	width: 100%;
-	margin-bottom: 70px;
-}
-
-header div.row { 
-	/*background-color: white;*/
+.navbar-default{
 	background-color: #4797B4;
 	color: white;
-	width: 100%;
-	position: fixed;
-	padding-left: 155px;
-	padding-right: 150px;
+}
+
+nav div{
+	 display: flex;
+	 justify-content: flex-end; 
+}
+
+nav p {
+	/*add padding all around nav bar items */
+  padding: 14px;
+	/*Set margin to 0 all around */
+  margin: 0;
+  font-size: 18px;
 }
 
 nav i {
-	display: flex;
 	padding: 10px;
 	margin: 0;
-	color: black;
+	color: navy;
+}
+.jumbotron {
+	margin-top: 70px;
+	display: flex;
+ 	align-items: center;
+ 	background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");
+ 	background-size: cover;
+ 	height: 430px;
+ 	color: #ffffff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.jumbotron h3 {
+	font-size: 40px;
 }
 .about{
 	text-align: center;
-	font-size: 18px;
+	font-size: 14px;
 	font-family: cursive;
 	padding: 0px 38px;
 }
@@ -78,20 +85,7 @@ figure h4{
 }
 
 
-.jumbotron {
-	display: flex;
- 	align-items: center;
- 	background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");
- 	background-size: cover;
- 	height: 430px;
- 	color: #ffffff;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.jumbotron h3 {
-	font-size: 40px;
-}
+
 footer p{
 	font-size: 18px;
 	clear: both;
