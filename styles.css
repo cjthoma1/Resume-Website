@@ -10,7 +10,7 @@ header p {
 
 header.container {
 	width: 100%;
-	margin-bottom: 80px;
+	margin-bottom: 70px;
 }
 
 header div.row { 
@@ -51,6 +51,18 @@ li.listTitle{
 	list-style: none;
 	padding: 2.7px;
 	font-size: 17px;
+}
+img{
+	height: 200px;
+	width: 230px;
+	margin: 10px;
+}
+div figure{
+ justify-content: center;
+ text-align: center;
+}
+figure h4{
+	font-size: 20px;
 }
 
 .break{
