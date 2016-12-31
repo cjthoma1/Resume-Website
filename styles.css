@@ -38,12 +38,13 @@ nav i {
 }
 .about{
 	text-align: center;
-	font-size: 14px;
+	font-size: 18px;
 	font-family: cursive;
 	padding: 0px 38px;
 }
 
 .Head{
+	color: #4797B4;
 	justify-content: center;
 	text-align: center;
 	font-size: 28px;
@@ -84,12 +85,21 @@ figure h4{
     background-size: cover;
 }
 
-
+hr.headLine {
+	color: #4797B4;
+    margin: 15px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
 
 footer p{
 	font-size: 18px;
 	clear: both;
 }
+
 .parallax {
     /* The image used */
     background-image: url("");
