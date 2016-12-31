@@ -1,13 +1,21 @@
 
-header nav{
+header nav {
 	 display: flex;
-	 justify-content: flex-end
+	 justify-content: flex-end;
 }
 header p {
   padding: 18px;
   margin: 0;
 }
-header h2{
+header.container {
+	/*width: 100%;*/
+	position: relative;
+}
+.keep{
+	position: fixed;
+}
+header div.row { 
+	/*position: fixed;*/
 }
 
 nav i {
@@ -15,19 +23,36 @@ nav i {
 	padding: 10px;
 	margin: 0;
 }
-.container {
-	/*width: 100%;*/
+.about{
+	text-align: center;
+	font-size: 18px;
+	font-family: cursive;
+	padding: 0px 38px;
 }
-.col-sm-12{
+
+.Head{
 	justify-content: center;
 	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
 }
+.skills{
+	justify-content: center;
+	font-size: 15px;
+	display: flex;
+}
+.break{
+	height: 200px;
+	border: 2px solid black;
+}
+
+
 .jumbotron {
 	display: flex;
  	align-items: center;
  	background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");
  	background-size: cover;
- 	height: 500px;
+ 	height: 430px;
  	color: #ffffff;
 }
 .jumbotron h3 {
