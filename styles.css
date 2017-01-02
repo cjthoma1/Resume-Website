@@ -6,12 +6,18 @@ body{
 */	line-height: 10px;
 	padding-top: 10px;
 	padding-bottom: 0px;
+	
+}
+.navbar-default .navbar-nav>li>a{
 	color: #0683B0;
 }
-navbar-nav>li>a:active{
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
 	color: white;
 	background-color: #0683B0;
 }
+
 .navbar-default{
 	/*background-color: #4797B4;*/
 	/*background-color: #0683B0 ;
