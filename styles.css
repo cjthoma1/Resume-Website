@@ -1,13 +1,24 @@
+body{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
 .navbar-default{
-	background-color: #4797B4;
-	color: white;
+	/*background-color: #4797B4;*/
+	/*background-color: #0683B0 ;
+	color: white;*/
+	background-color: white;
+	color:#0683B0;
+	border-bottom: 4px solid #0683B0;
 }
 
 nav div{
 	 display: flex;
 	 justify-content: flex-end; 
 }
-
+nav p:hover{
+	color: white;
+	background-color: #0683B0;
+	
+}
 nav p {
 	/*add padding all around nav bar items */
   padding: 14px;
@@ -22,7 +33,7 @@ nav i {
 	color: navy;
 }
 .jumbotron {
-	margin-top: 63px;
+	margin-top: 60px;
 	display: flex;
  	align-items: center;
  	background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");
@@ -36,6 +47,7 @@ nav i {
 .jumbotron h3 {
 	font-size: 40px;
 }
+
 .about{
 	text-align: center;
 	font-size: 18px;
@@ -44,7 +56,8 @@ nav i {
 }
 
 .Head{
-	color: #4797B4;
+	/*color: #4797B4;*/
+	color: #0683B0;
 	justify-content: center;
 	text-align: center;
 	font-size: 28px;
@@ -55,7 +68,7 @@ li.listTitle{
 	font-size: 20px;
 	margin-top: 12px;
 	margin-left: 42px;
-	color: navy;
+	color: #0683B0;
 }
 .skills li {
 	/*text-align: center;*/
@@ -67,6 +80,17 @@ img{
 	height: 200px;
 	width: 230px;
 	margin: 10px;
+}
+img.replayFX{
+	height: 200px;
+	width: 270px;
+	margin: 10px;
+	
+}
+.category{
+	background-color: #4797B4; ;
+	color: white;
+	
 }
 div figure{
  justify-content: center;
@@ -87,9 +111,12 @@ figure h4{
     background-repeat: no-repeat;
     background-size: cover;
 }
+h3.title{
+	color: #0683B0;
+}
 
 hr.headLine {
-	color: #4797B4;
+	color: #0683B0;
     margin: 14px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -102,7 +129,10 @@ footer p{
 	font-size: 18px;
 	clear: both;
 }
-
+label{
+	color: #0683B0 ;
+	font-size: 20px;
+}
 .parallax {
     /* The image used */
     background-image: url("");
