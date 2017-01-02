@@ -4,21 +4,25 @@
 	<title> The Cray J. Resume </title>
 	<script src="https://use.fontawesome.com/e771a899e6.js"></script>
 	<link rel= "stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 <!-- <link href="css/scrolling-nav.css" rel="stylesheet"> -->
 	<link rel= "stylesheet" type= "text/css" href= "styles.css"/>
+	
 	
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 			<nav class= "navbar-default navbar-fixed-top">
 				<div class= "container" >
-				<h3 class= "col-sm-4"> The Cray J. Resume </h3>
-				<div class= "col-sm-12">
-				<p>About</p>
-				<p>Skills</p>
-				<p>Projects</p>
-				<p>Education</p>
-				<p>Contact</p>
+				
+					
+					<h3 class= "col-lg-6"><a class="page-scroll" href="#page-top">The Cray J. Resume</a></h3>
+				
+				<div class= "col-lg-6">
+					
+				<a class="page-scroll" href= "#About"><p>About</p></a>
+				<a class="page-scroll" href= "#Skills"><p>Skills</p></a>
+				<a class="page-scroll" href= "#Projects"><p>Projects</p></a>
+				<a class="page-scroll" href= "#Contact"><p>Contact</p></a>
 				<a href= "https://github.com/cjthoma1"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
 				<a href= "https://www.linkedin.com/in/cray-thomas?trk=nav_responsive_tab_profile">
 					<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
@@ -35,11 +39,11 @@
 			</div>
 		</div>
 	</section>
-	
+	<!-- <div id= "About"></div> -->
 	<seciton class= "container">
 		<div class= "row">
 			<div class= "col-lg-12 text-center">
-				<h2 class= "Head">About</h2>
+				<h2 id= "About" class= "Head">About</h2>
 				<hr class="headLine">
 			</div>
 		</div>
@@ -62,7 +66,7 @@
 	<seciton class= "container">
 		<div class= "row">
 				<div class= "col-lg-12 text-center">
-					<h2 class= "Head">Skills</h2>
+					<h2 id= "Skills" class= "Head">Skills</h2>
 					<hr class="headLine">
 				</div>
 			</div>
@@ -140,7 +144,7 @@
 	<section class= "container">
 		<div class= "row">
 				<div class= "col-lg-12 text-center">
-					<h2 class= "Head">Projects</h2>
+					<h2 id= "Projects" class= "Head">Projects</h2>
 					<hr class="headLine">
 				</div>
 			</div>
@@ -173,31 +177,12 @@
 		</div>
 	</section>
 	<div class= "break"> </div>
-	<seciton class= "container">
-		<div class= "row">
-			<div class= "col-sm-12 text-center">
-				<h2 class= "Head">Education</h2>
-				<hr class="headLine">
-			</div>
-		</div>
-		<div class= "row">
-				<h3 class= "col-sm-6 text-center title">Academy Pgh	</h3>
-				<p class= "col-sm-6 text-center"> 
-					
-				</p>
-				<h3 class= "col-sm-6 text-center title">Point Park University</h3>
-				<p class= "col-sm-6 text-center"> 
-					
-				</p>
-		</div>
-	</section>
-	<div class= "break"> </div>
 	
 	<section class="primary" id="contact">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-lg-12 text-center">
-	                    <h2 class= "Head">Contact</h2>
+	                    <h2 id= "Contact" class= "Head">Contact</h2>
 	                    <hr class= "headLine">
 	                </div>
 	            </div>
@@ -252,6 +237,14 @@
 			<p class= "col-sm-12 text-right" > 2017 CrayjResume &copy;</p>
 		</div>
 	</footer>
-
+	<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Bootstrap Js -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <!-- Scrolling Nav JavaScript -->
+	    <script src="js/jquery.easing.min.js"></script>
+	    <script src="js/scrolling-nav.js"></script>
+	
+	
 </body>
 </html>

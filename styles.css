@@ -1,6 +1,8 @@
 body{
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+
 .navbar-default{
 	/*background-color: #4797B4;*/
 	/*background-color: #0683B0 ;
@@ -10,14 +12,10 @@ body{
 	border-bottom: 4px solid #0683B0;
 }
 
+
 nav div{
 	 display: flex;
-	 justify-content: flex-end; 
-}
-nav p:hover{
-	color: white;
-	background-color: #0683B0;
-	
+	 justify-content: flex-end;
 }
 nav p {
 	/*add padding all around nav bar items */
@@ -26,11 +24,21 @@ nav p {
   margin: 0;
   font-size: 18px;
 }
+nav a:hover{
+	text-decoration: none;
+	color: #0683B0;
+}
+nav p:hover,
+nav i:hover {
+	color: white;
+	background-color: #0683B0;
+}
 
 nav i {
 	padding: 10px;
 	margin: 0;
-	color: navy;
+	/*color: navy;*/
+	color: #0683B0;
 }
 .jumbotron {
 	margin-top: 60px;
@@ -87,11 +95,7 @@ img.replayFX{
 	margin: 10px;
 	
 }
-.category{
-	background-color: #4797B4; ;
-	color: white;
-	
-}
+
 div figure{
  justify-content: center;
  text-align: center;
