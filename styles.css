@@ -72,7 +72,8 @@ nav a.active{
 }
 nav p:hover,
 nav i:hover,
-nav a:hover
+nav a:hover,
+nav a:focus
 {
 	color: white;
 	background-color: #0683B0;
