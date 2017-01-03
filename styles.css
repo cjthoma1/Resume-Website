@@ -4,8 +4,8 @@ body{
 
 .active{
     
-	color: white;
-	background-color: #0683B0;
+	/*color: white;
+	background-color: #0683B0;*/
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
@@ -15,7 +15,7 @@ body{
 
 .navbar-default{
 	background-color: white;
-	color:#0683B0;
+	/*color:#0683B0;*/
 	border-bottom: 4px solid #0683B0;
 }
 
@@ -24,6 +24,15 @@ nav div{
 	 display: flex;
 	 justify-content: flex-end;
 }
+nav div.container{
+	width:100%;
+}
+nav div.row{
+	width:100%;
+}
+/*nav div.col-lg-6{
+	padding-left: 40px;
+}*/
 nav p {
 	/*add padding all around nav bar items */
   padding: 14px;
@@ -33,6 +42,7 @@ nav p {
 }
 nav a:hover{
 	text-decoration: none;
+	color: #0683B0;;
 }
 a:-webkit-any-link {
 	text-decoration: none;
@@ -45,10 +55,10 @@ nav h3 a:visited{
 	color:#0683B0;
 }
 nav a.active{
-	color:white;
+	/*color: white;*/
 }
 nav a:focus{
-	color:;
+	color: #0683B0;
 }
 nav p:hover,
 nav i:hover,
@@ -56,6 +66,7 @@ nav a:hover
 {
 	color: white;
 	background-color: #0683B0;
+	/*color: navy;*/
 }
 
 nav i {
