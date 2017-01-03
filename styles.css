@@ -1,32 +1,9 @@
 body{
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-/*.navbar-nav>li>a{
-	padding:0px;
-	line-height:;
-	padding-top: 0;
-	padding-bottom:0;
-	line-height:0;
-}
-.nav>li>a{
-	padding: 10px 9px;
-}
-.navbar-default .navbar-nav>li>a{
-	Set navbar default color
-	color: #0683B0;
-}
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-	color: white;
-	background-color: #0683B0;
-}*/
-/*nav>li>a:hover{
-	color:white;
-}*/
+
 .active{
-    /*color: #fff !important;
-    text-decoration: underline !important;*/
+    
 	color: white;
 	background-color: #0683B0;
     -webkit-transform: translate3d(0, 0, 0);
@@ -70,10 +47,12 @@ nav h3 a:visited{
 nav a.active{
 	color:white;
 }
+nav a:focus{
+	color:;
+}
 nav p:hover,
 nav i:hover,
-nav a:hover,
-nav a:focus
+nav a:hover
 {
 	color: white;
 	background-color: #0683B0;
