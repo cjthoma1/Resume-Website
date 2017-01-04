@@ -1,13 +1,16 @@
-# README
+# Cray Digital Space
 
-Resume website written in HTML/CSS
+Resume website written in HTML/CSS/Javascript and PHP
 
-* Includes Bootstrap and Font Awesome
-* This website will give the user an understanding of: 
-	Who I am 
-	What my skills are 
-	What experience I have in Web Development 
-	All awhile showcasing some of my front end skills.
+* Addition Frameworks and Libraries:
+	Bootstrap
+	JQuery
+	Font Awesome
+* Website includes: 
+	About section 
+	Resume
+	Portfolio
+	Contact Form
 	
 * Upon completetion I will be deploying this website through github.
 
