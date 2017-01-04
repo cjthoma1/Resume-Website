@@ -79,7 +79,8 @@ nav i {
 	margin-top: 40px;
 	display: flex;
  	align-items: center;
- 	background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");
+ 	/*background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");*/
+	background-image: url("images/code.jpg");
  	background-size: cover;
  	height: 430px;
  	color: #ffffff;
@@ -130,6 +131,9 @@ img.replayFX{
 	margin: 10px;
 	
 }
+img.welcome{
+	border-radius: 50%;
+}
 
 
 div figure{
@@ -144,7 +148,8 @@ figure h4{
     /* Set a specific height */
 	min-height: 200px;
 	/* choose a image*/
- 	background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");
+ 	/*background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");*/
+	background-image: url("images/code.jpg");
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
