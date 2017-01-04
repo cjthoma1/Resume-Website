@@ -95,12 +95,14 @@ nav i {
 .about{
 	text-align: center;
 	font-size: 18px;
-	font-family: cursive;
+	font-family: italic;
+
 	padding: 0px 38px;
+	
 }
 
 .Head{
-	/*color: #4797B4;*/
+	
 	color: #0683B0;
 	justify-content: center;
 	text-align: center;
@@ -114,11 +116,14 @@ li.listTitle{
 	margin-left: 42px;
 	color: #0683B0;
 }
+h3.resumeTitle{
+	color: #0683B0;
+}
 .skills li {
 	/*text-align: center;*/
 	list-style: none;
 	padding: 2.0px;
-	font-size: 17px;
+	font-size: 16px;
 }
 img{
 	height: 200px;
@@ -134,7 +139,6 @@ img.replayFX{
 img.welcome{
 	border-radius: 50%;
 }
-
 
 div figure{
  justify-content: center;
@@ -177,17 +181,4 @@ footer p{
 label{
 	color: #0683B0 ;
 	font-size: 20px;
-}
-.parallax {
-    /* The image used */
-    background-image: url("");
-
-    /* Set a specific height */
-    min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
