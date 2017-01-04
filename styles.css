@@ -1,7 +1,37 @@
+
+
+
+
+.navbar-default .navbar-brand{
+	color: #0683B0;
+}
+
+
+.navbar-default .navbar-nav>li>a{
+	color: #0683B0;
+	line-height:0px;
+}
+@media (min-width: 768px)
+.navbar-nav>li>a {
+	padding-top: 0px;
+	padding-bottom:0px;
+}
+.nav>li>a {
+	padding:0px;
+	/*padding-top: 20px;*/
+	
+}
+
+
+/*my section*/
 body{
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-
+.navbar-default{
+	background-color: white;
+	/*color:#0683B0;*/
+	border-bottom: 4px solid #0683B0;
+}
 .active{
     
 	/*color: white;
@@ -13,22 +43,25 @@ body{
     transform: translate3d(0, 0, 0);
 }
 
-.navbar-default{
-	background-color: white;
-	/*color:#0683B0;*/
-	border-bottom: 4px solid #0683B0;
-}
-
-
-nav div{
+nav div ul{
 	 display: flex;
 	 justify-content: flex-end;
+	 list-style-type:none;
+	 
+}
+
+h3.navbar-brand{
+	padding: 0px;
+	font-size: 24px;
+	margin: 2px;
+	margin-top: 20px;
+	margin-bottom: -15px;
 }
 nav div.container{
-	width: 90%;
+	/*width: 100%;*/
 }
 nav div.row{
-	width: 100%;
+	/*width: 90%;*/
 }
 /*nav div.col-lg-6{
 	padding-left: 40px;
@@ -37,12 +70,13 @@ nav p {
 	/*add padding all around nav bar items */
   padding: 14px;
 	/*Set margin to 0 all around */
-  margin: 0px;
+  margin: 5px;
+  margin-bottom: -15px;
   font-size: 18px;
 }
 nav a:hover{
 	text-decoration: none;
-	color: #0683B0;;
+	color: #0683B0;
 }
 a:-webkit-any-link {
 	text-decoration: none;
