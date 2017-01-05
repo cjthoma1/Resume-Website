@@ -54,7 +54,7 @@ nav div ul{
 	/* justify-content: flex-end;*/
 	 list-style-type:none;
 	 margin-right: -10px;
-	 margin-left: -50px;
+	 margin-left: -100px;
 }
 .navbar-header{
 /*	display: flex;
@@ -80,7 +80,7 @@ nav div.row{
 
 nav p {
 	/*add padding all around nav bar items */
-  padding: 14px;
+  padding: 14px 5px 14px 5px;
 	/*Set margin to 0 all around */
   margin: 5px;
   margin-bottom: -16px;
@@ -100,9 +100,9 @@ nav h3 a:visited{
 	background-color: white;
 	color:#0683B0;
 }
-nav a.active{
-	/*color: white;*/
-}
+/*nav a.active{
+	color: white;
+}*/
 nav a:focus{
 	color: #0683B0;
 }
