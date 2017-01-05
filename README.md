@@ -1,6 +1,6 @@
 # Cray Digital Space
 
-Resume website written in HTML/CSS/Javascript and PHP
+Resume website written in HTML/CSS and Javascript
 
 * Addition Frameworks and Libraries:
 	Bootstrap,
@@ -12,5 +12,8 @@ Resume website written in HTML/CSS/Javascript and PHP
 	Portfolio,
 	Contact Form
 	
-* Upon completetion I will be deploying this website through Github Pages.
+* Using Formspree and SendGrid API for sending information through Contatc Form. 
+* Check them out at https://formspree.io 
+
+* Deployed through Github Pages.
 
