@@ -201,7 +201,7 @@ figure h4{
 
 .break{
     /* Set a specific height */
-	min-height: 100%;
+	min-height: 200px;
 	/* choose a image*/
  	/*background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");*/
 	background-image: url("images/code.jpg");
