@@ -53,17 +53,12 @@ nav div ul{
 	 display: flex;
 	/* justify-content: flex-end;*/
 	 list-style-type:none;
-	/* margin-right: -10;*/
-	 
+	 margin-right: -10px;
+	 margin-left: -20px;
 }
-/*nav div.container {
-	display: flex;
-}*/
 .navbar-header{
-	/*width: 450px;*/
-}
-.navbar-brand{
-	width:100%;
+/*	display: flex;
+*/	width: 500px;
 }
 
 h3.navbar-brand{
@@ -112,8 +107,8 @@ nav a:focus{
 	color: #0683B0;
 }
 nav p:hover,
-nav i:hover,
-nav a:hover
+nav i:hover
+/*nav a:hover*/
 {
 	color: white;
 	background-color: #0683B0;
