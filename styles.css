@@ -26,6 +26,7 @@
 /*my section*/
 body{
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-right: -15px;
 }
 .navbar-default{
 	background-color: white;
