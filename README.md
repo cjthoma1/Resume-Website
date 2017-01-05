@@ -12,5 +12,5 @@ Resume website written in HTML/CSS/Javascript and PHP
 	Portfolio,
 	Contact Form
 	
-* Upon completetion I will be deploying this website through github.
+* Upon completetion I will be deploying this website through Github Pages.
 
