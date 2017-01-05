@@ -26,7 +26,7 @@
 /*my section*/
 body{
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	margin-right: -30px;
+	margin-right: -24px;
 }
 .navbar-default{
 	background-color: white;
@@ -66,8 +66,11 @@ nav div.container{
 	/*width: 100%;*/
 }
 nav div.row{
-	width: 100%;
-}
+/*	width: 100%;
+*/}
+	.collapse navbar-collapse navbar-menubuilder{
+		width: 100%;
+	}
 
 nav p {
 	/*add padding all around nav bar items */
