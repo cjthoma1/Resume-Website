@@ -10,6 +10,7 @@
 .navbar-default .navbar-nav>li>a{
 	color: #0683B0;
 	line-height:0px;
+	margin-left: 20px;
 }
 @media (min-width: 768px)
 .navbar-nav>li>a {
@@ -131,6 +132,7 @@ nav i {
  	/*height: 430px;*/
 	/*height:26.875em;*/
 	height: 100%;
+	width: 100%;
  	color: #ffffff;
     background-attachment: fixed;
     background-position: center;
@@ -199,7 +201,7 @@ figure h4{
 
 .break{
     /* Set a specific height */
-	min-height: 200px;
+	min-height: 100%;
 	/* choose a image*/
  	/*background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");*/
 	background-image: url("images/code.jpg");
