@@ -50,21 +50,22 @@ nav div ul{
 	 
 }
 .navbar-header{
-	display: flex;
-	width: 585px;
+/*	display: flex;
+*/	width: 500px;
 }
 
 h3.navbar-brand{
 	padding: 0px;
 	font-size: 24px;
 	margin-top: 20px;
-	margin-bottom: -15px;
+	/*margin-bottom: -13px;*/
+	margin-bottom: -0.813em;
 }
 nav div.container{
 	/*width: 100%;*/
 }
 nav div.row{
-	/*width: 100%;*/
+	width: 100%;
 }
 
 nav p {
@@ -112,13 +113,15 @@ nav i {
 }
 .jumbotron {
 	/*Parallax Effect*/
-	margin-top: 40px;
+	/*margin-top: 58px;*/
+	margin-top: 3.625em;
 	display: flex;
  	align-items: center;
  	/*background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");*/
 	background-image: url("images/code.jpg");
  	background-size: cover;
- 	height: 430px;
+ 	/*height: 430px;*/
+	height:26.875em;
  	color: #ffffff;
     background-attachment: fixed;
     background-position: center;
