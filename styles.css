@@ -37,7 +37,6 @@ body{
 	background-color: white;
 	/*color:#0683B0;*/
 	border-bottom: 4px solid #0683B0;
-	margin-left: 40px;
 }
 .active{
     
@@ -58,7 +57,7 @@ nav div ul{
 }
 .navbar-header{
 /*	display: flex;
-*/	width: 100%;
+*/	width: 500px;
 }
 
 h3.navbar-brand{
