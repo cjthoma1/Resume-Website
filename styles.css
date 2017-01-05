@@ -64,8 +64,8 @@ h3.navbar-brand{
 	padding: 0px;
 	font-size: 24px;
 	/*margin-top: 20px;*/
-	/*margin-bottom: -13px;*/
-	margin-bottom: -0.813em;
+	margin-bottom: -14px;
+	/*margin-bottom: -0.813em;*/
 }
 nav div.container{
 	/*width: 100%;*/
@@ -82,7 +82,7 @@ nav p {
   padding: 14px;
 	/*Set margin to 0 all around */
   margin: 5px;
-  margin-bottom: -15px;
+  margin-bottom: -16px;
   font-size: 18px;
 }
 nav a:hover{
@@ -117,7 +117,7 @@ nav a:hover
 nav i {
 	padding: 15px 0px 0px 15px;
 	padding:15px;
-	margin-bottom: -9.5px;
+	margin-bottom: -10px;
 	color: #0683B0;
 }
 .jumbotron {
@@ -128,14 +128,17 @@ nav i {
  	align-items: center;
  	/*background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");*/
 	/*background-image: url("images/code.jpg");*/
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
+	background-color:#0683B0;
  	background-size: cover;
+	/*border-bottom: 4px solid #0683B0 ;*/
+	
  	/*height: 430px;*/
 	/*height:26.875em;*/
 	height: 100%;
 	/*width: 100%;*/
- 	/*color: #ffffff;*/
-	color: #0683B0;
+ 	color: #ffffff;
+	/*color: #0683B0;*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,6 +179,7 @@ h3.resumeTitle{
 	list-style: none;
 	padding: 5px;
 	font-size: 16px;
+	
 }
 
 img{
@@ -203,7 +207,7 @@ figure h4{
 
 .break{
     /* Set a specific height */
-	min-height: 30px;
+	min-height: 0px;
 	/* choose a image*/
  	/*background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");*/
 	/*background-image: url("images/code.jpg");*/
