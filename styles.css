@@ -49,6 +49,10 @@ nav div ul{
 	 list-style-type:none;
 	 
 }
+.navbar-header{
+	display: flex;
+	width: 585px;
+}
 
 h3.navbar-brand{
 	padding: 0px;
@@ -60,7 +64,7 @@ nav div.container{
 	/*width: 100%;*/
 }
 nav div.row{
-	/*width: 90%;*/
+	/*width: 100%;*/
 }
 
 nav p {
