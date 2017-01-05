@@ -53,12 +53,17 @@ nav div ul{
 	 display: flex;
 	/* justify-content: flex-end;*/
 	 list-style-type:none;
-	 margin-right: -10;
+	/* margin-right: -10;*/
 	 
 }
+/*nav div.container {
+	display: flex;
+}*/
 .navbar-header{
-/*	display: flex;
-*/	width: 450px;
+	/*width: 450px;*/
+}
+.navbar-brand{
+	width:100%;
 }
 
 h3.navbar-brand{
