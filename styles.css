@@ -54,7 +54,7 @@ nav div ul{
 	/* justify-content: flex-end;*/
 	 list-style-type:none;
 	 margin-right: -40px;
-	 margin-left: -75px;
+	 margin-left: -70px;
 }
 .navbar-header{
 /*	display: flex;
@@ -169,7 +169,7 @@ nav i {
 	font-weight: bold;
 	font-size: 20px;
 	margin-top: 12px;
-	margin-left: 42px;
+	margin-left: 0px;
 	color: #0683B0;
 }
 h3.resumeTitle{
