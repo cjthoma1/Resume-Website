@@ -238,9 +238,12 @@ hr.headLine {
     text-align: center;
 }
 
-footer p{
-	font-size: 18px;
+footer {
+	margin-top: 150px;
 	clear: both;
+}
+footer i{
+padding: 0px 8px 0px 8px;
 }
 label{
 	color: #0683B0 ;
