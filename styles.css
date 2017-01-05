@@ -10,7 +10,7 @@
 .navbar-default .navbar-nav>li>a{
 	color: #0683B0;
 	line-height:0px;
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 }
 @media (min-width: 768px)
 .navbar-nav>li>a {
@@ -37,6 +37,7 @@ body{
 	background-color: white;
 	/*color:#0683B0;*/
 	border-bottom: 4px solid #0683B0;
+	margin-left: 40px;
 }
 .active{
     
@@ -57,7 +58,7 @@ nav div ul{
 }
 .navbar-header{
 /*	display: flex;
-*/	width: 500px;
+*/	width: 100%;
 }
 
 h3.navbar-brand{
@@ -132,7 +133,7 @@ nav i {
  	/*height: 430px;*/
 	/*height:26.875em;*/
 	height: 100%;
-	width: 100%;
+	/*width: 100%;*/
  	color: #ffffff;
     background-attachment: fixed;
     background-position: center;
