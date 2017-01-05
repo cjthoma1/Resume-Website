@@ -53,12 +53,12 @@ nav div ul{
 	 display: flex;
 	/* justify-content: flex-end;*/
 	 list-style-type:none;
-	 margin-right: -10px;
+	 margin-right: -5px;
 	 margin-left: -75px;
 }
 .navbar-header{
 /*	display: flex;
-*/	width: 500px;
+*/	width: 560px;
 }
 
 h3.navbar-brand{
@@ -80,7 +80,7 @@ nav div.row{
 
 nav p {
 	/*add padding all around nav bar items */
-  padding: 14px 2px 14px 2px;
+  padding: 14px 2.5px 14px 2.5px;
 	/*Set margin to 0 all around */
   margin: 6px;
   margin-bottom: -16px;
