@@ -80,9 +80,10 @@ nav div.row{
 
 nav p {
 	/*add padding all around nav bar items */
-  padding: 14px;
+  padding: 10px;
 	/*Set margin to 0 all around */
-  margin: 5px;
+	
+  margin: 0px;
   margin-bottom: -16px;
   font-size: 18px;
 }
