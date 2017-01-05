@@ -241,6 +241,7 @@ hr.headLine {
 footer {
 	margin-top: 150px;
 	clear: both;
+	width: 100%;
 }
 footer i{
 padding: 0px 8px 0px 8px;
