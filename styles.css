@@ -126,7 +126,8 @@ nav i {
 	background-image: url("images/code.jpg");
  	background-size: cover;
  	/*height: 430px;*/
-	height:26.875em;
+	/*height:26.875em;*/
+	height: 100%;
  	color: #ffffff;
     background-attachment: fixed;
     background-position: center;
