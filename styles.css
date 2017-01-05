@@ -141,7 +141,7 @@ nav i {
 	font-size: 28px;
 	font-weight: bold;
 }
-li.listTitle{
+.listTitle{
 	font-weight: bold;
 	font-size: 20px;
 	margin-top: 12px;
@@ -154,9 +154,10 @@ h3.resumeTitle{
 .skills li {
 	/*text-align: center;*/
 	list-style: none;
-	padding: 2.0px;
+	padding: 5px;
 	font-size: 16px;
 }
+
 img{
 	height: 200px;
 	width: 230px;
