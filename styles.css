@@ -41,7 +41,7 @@ active state, i.e. menu open
 }
 */
 .c-hamburger--htx {
-  background-color: #ffffff;
+  background-color: #ff3264;
 }
 
 .c-hamburger--htx span {
@@ -64,7 +64,7 @@ active state, i.e. menu open
 
 /* active state, i.e. menu open */
 .c-hamburger--htx.is-active {
-  background-color: #0683B0;
+  background-color: #cb0032;
 }
 
 .c-hamburger--htx.is-active span {
@@ -85,7 +85,6 @@ active state, i.e. menu open
 .c-hamburger--htx.is-active span::after {
   transition-delay: 0s, 0.3s;
 }
-
 
 .navbar-default .navbar-brand{
 	color: #0683B0;
