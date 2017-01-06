@@ -78,8 +78,8 @@ body{
 }
 .active{
 
-	color: white;
-	background-color: #0683B0;
+	/*color: white;
+	background-color: #0683B0;*/
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
@@ -138,9 +138,7 @@ nav h3 a:visited{
 	background-color: white;
 	color:#0683B0;
 }
-/*nav a.active{
-	color: white;
-}*/
+
 nav a:focus{
 	color: #0683B0;
 }
@@ -150,7 +148,6 @@ nav i:hover
 {
 	color: white;
 	background-color: #0683B0;
-	/*color: navy;*/
 }
 
 nav i {
@@ -227,7 +224,6 @@ h3.resumeTitle{
 	padding: 7px;
 	padding-left: 0px;
 	font-size: 16px;
-	
 }
 .skills h4 ul{
 	text-align: center;
