@@ -204,6 +204,13 @@ nav i {
 	font-size: 28px;
 	font-weight: bold;
 }
+.skillTitle{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 12px;
+	margin-left: 50px;
+	color: #0683B0;
+}
 .listTitle{
 	font-weight: bold;
 	font-size: 20px;
