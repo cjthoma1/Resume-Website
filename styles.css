@@ -284,7 +284,7 @@ footer.container {
 	margin-top: 150px;
 	margin-bottom: -70px;
 	margin-right: 5px;
-	margin-left: 30px;
+	margin-left: 20px;
 	clear: both;
 	background-color: #0683B0;
 	width: 100%;
@@ -295,9 +295,9 @@ footer.container {
 footer div{
 	width: 100%;
 }
-/*footer{
+footer{
 	width: 100%;
-}*/
+}
 footer i{
 padding: 0px 8px 0px 8px;
 color: white;
