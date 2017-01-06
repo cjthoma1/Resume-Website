@@ -100,10 +100,10 @@ nav div ul{
 }
 .navbar-header{
 /*	display: flex;
-*/	width: 530px;
+*/	width: 500px;
 }
 nav h3 a{
-	padding-left: 10px;
+	padding-left: 35px;
 }
 h3.navbar-brand{
 	padding: 0px;
