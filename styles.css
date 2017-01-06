@@ -1,5 +1,5 @@
-.c-hamburger--htra {
-  /*background-color: #ff9650;*/
+/*.c-hamburger--htra {
+  background-color: #ff9650;
 }
 
 .c-hamburger--htra span {
@@ -16,9 +16,9 @@
   transition: transform 0.3s, width 0.3s, bottom 0.3s;
 }
 
-/* active state, i.e. menu open */
+active state, i.e. menu open 
 .c-hamburger--htra.is-active {
-  /*background-color: #e95d00;*/
+  background-color: #e95d00;
 }
 
 .c-hamburger--htra.is-active span {
@@ -38,6 +38,52 @@
 .c-hamburger--htra.is-active span::after {
   bottom: 0;
   transform: translateX(-8px) translateY(-4px) rotate(45deg);
+}
+*/
+.c-hamburger--htx {
+  background-color: #ffffff;
+}
+
+.c-hamburger--htx span {
+  transition: background 0s 0.3s;
+}
+
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+
+.c-hamburger--htx span::before {
+  transition-property: top, transform;
+}
+
+.c-hamburger--htx span::after {
+  transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active {
+  background-color: #0683B0;
+}
+
+.c-hamburger--htx.is-active span {
+  background: none;
+}
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  transition-delay: 0s, 0.3s;
 }
 
 
