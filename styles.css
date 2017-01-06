@@ -283,7 +283,7 @@ hr.headLine {
 footer.container {
 	margin-top: 150px;
 	margin-bottom: -70px;
-	margin-right: -40px;
+	margin-right: -70px;
 	clear: both;
 	background-color: #0683B0;
 	width: 100%;
@@ -291,9 +291,9 @@ footer.container {
 	padding: 30px 50px 35px 30px;
 	color: white;
 }
-footer{
+/*footer{
 	width: 100%;
-}
+}*/
 footer i{
 padding: 0px 8px 0px 8px;
 color: white;
