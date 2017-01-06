@@ -1,29 +1,4 @@
-.navbar-toggle .icon-bar:nth-of-type(2) {
-	  top: 1px;
-}
 
-.navbar-toggle .icon-bar:nth-of-type(3) {
-  	top: 2px;
-}
-
-.navbar-toggle .icon-bar {
-	  position: relative;
-	  transition: all 500ms ease-in-out;
-}
-
-.navbar-toggle.active .icon-bar:nth-of-type(1) {
-	  top: 6px;
-	  transform: rotate(45deg);
-}
-
-.navbar-toggle.active .icon-bar:nth-of-type(2) {
-	  background-color: transparent;
-}
-
-.navbar-toggle.active .icon-bar:nth-of-type(3) {
-	  top: -6px;
-	  transform: rotate(-45deg);
-}
 
 
 
@@ -149,6 +124,7 @@ nav i {
 	/*Parallax Effect*/
 	/*margin-top: 58px;*/
 	margin-top: 3.625em;
+	margin-right: -40px;
 	display: flex;
  	align-items: center;
  	/*background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");*/
