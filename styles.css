@@ -1,26 +1,44 @@
-.navbar-toggle .icon-bar:nth-of-type(3) {
-  	top: 2px;
-}
-.navbar-toggle .icon-bar {
-	  position: relative;
-	  transition: all 500ms ease-in-out;
+.c-hamburger--htra {
+  /*background-color: #ff9650;*/
 }
 
-.navbar-toggle.active .icon-bar:nth-of-type(1) {
-	  top: 6px;
-	  transform: rotate(45deg);
+.c-hamburger--htra span {
+  transition: transform 0.3s;
 }
 
-.navbar-toggle.active .icon-bar:nth-of-type(2) {
-	  background-color: transparent;
+.c-hamburger--htra span::before {
+  transform-origin: top left;
+  transition: transform 0.3s, width 0.3s, top 0.3s;
 }
 
-.navbar-toggle.active .icon-bar:nth-of-type(3) {
-	  top: -6px;
-	  transform: rotate(-45deg);
+.c-hamburger--htra span::after {
+  transform-origin: bottom left;
+  transition: transform 0.3s, width 0.3s, bottom 0.3s;
 }
 
+/* active state, i.e. menu open */
+.c-hamburger--htra.is-active {
+  /*background-color: #e95d00;*/
+}
 
+.c-hamburger--htra.is-active span {
+  transform: rotate(180deg);
+}
+
+.c-hamburger--htra.is-active span::before,
+.c-hamburger--htra.is-active span::after {
+  width: 50%;
+}
+
+.c-hamburger--htra.is-active span::before {
+  top: 0;
+  transform: translateX(-8px) translateY(4px) rotate(-45deg);
+}
+
+.c-hamburger--htra.is-active span::after {
+  bottom: 0;
+  transform: translateX(-8px) translateY(-4px) rotate(45deg);
+}
 
 
 .navbar-default .navbar-brand{
