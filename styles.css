@@ -194,7 +194,7 @@ nav i {
 	font-size: 18px;
 	font-family: italic;
 
-	padding: 0px 38px;
+	/*padding: 0px 38px;*/
 	
 }
 
@@ -299,8 +299,8 @@ footer.container {
 }
 
 footer {
-	margin-right: -40px;
-	width: 100%;
+/*	margin-right: -40px;
+*/	width: 100%;
 	position: absolute;
 }
 footer i{
