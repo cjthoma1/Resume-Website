@@ -1,5 +1,5 @@
 .c-hamburger--htra {
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
 }
 
 .c-hamburger--htra span {
@@ -18,7 +18,7 @@
 
 /* active state, i.e. menu open */
 .c-hamburger--htra.is-active {
-  background-color:#0683B0 ;
+  /*background-color:#0683B0 ;*/
 }
 
 .c-hamburger--htra.is-active span {
