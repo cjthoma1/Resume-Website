@@ -283,13 +283,17 @@ hr.headLine {
 footer.container {
 	margin-top: 150px;
 	margin-bottom: -70px;
-	margin-right: -70px;
+	margin-right: 5px;
+	margin-left: 40px;
 	clear: both;
 	background-color: #0683B0;
 	width: 100%;
 	height: 100%;
-	padding: 30px 50px 35px 30px;
+	padding: 30px 60px 35px 30px;
 	color: white;
+}
+footer div{
+	width: 100%;
 }
 /*footer{
 	width: 100%;
