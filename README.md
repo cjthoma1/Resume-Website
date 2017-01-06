@@ -12,7 +12,7 @@ Resume website written in HTML/CSS and Javascript
 	Portfolio,
 	Contact Form
 	
-* Using Formspree and SendGrid API for sending information through Contact Form. 
+* Using Formspree/SendGrid API for sending information through Contact Form. 
 * Check them out at https://formspree.io 
 
 * Deployed through Github Pages.
