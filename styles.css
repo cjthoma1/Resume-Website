@@ -103,6 +103,7 @@ nav div ul{
 */	width: 500px;
 }
 nav h3 a{
+	/* Move Site Title away from left edge of screen*/
 	padding-left: 20px;
 }
 h3.navbar-brand{
@@ -135,6 +136,7 @@ nav a:hover{
 	color: #0683B0;
 }
 a:-webkit-any-link {
+	/*Take away all text-decoration from webkit links */
 	text-decoration: none;
 
 }
@@ -145,12 +147,13 @@ nav h3 a:visited{
 	color:#0683B0;
 }
 
+/*Keep links the same color even after they have been selected */
 nav a:focus{
 	color: #0683B0;
 }
+
 nav p:hover,
 nav i:hover
-/*nav a:hover*/
 {
 	color: white;
 	background-color: #0683B0;
@@ -159,11 +162,12 @@ nav i:hover
 nav i {
 	padding: 15px 0px 0px 0px;
 	padding:15px;
+	/* Move nav bar border closer to icons and nav links */
 	margin-bottom: -10px;
 	color: #0683B0;
 }
 .jumbotron {
-	/*Parallax Effect*/
+	/*Parallax Effect That I'm Not Using.... but just in case I change my mind*/
 	/*margin-top: 58px;*/
 	margin-top: 3.625em;
 	display: flex;
@@ -173,10 +177,6 @@ nav i {
 	/*background-color: #ffffff;*/
 	background-color:#0683B0;
  	background-size: cover;
-	/*border-bottom: 4px solid #0683B0 ;*/
-	
- 	/*height: 430px;*/
-	/*height:26.875em;*/
 	height: 100%;
 	/*width: 100%;*/
  	color: #ffffff;
@@ -185,17 +185,15 @@ nav i {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .jumbotron h3 {
 	font-size: 40px;
 }
 
-.about{
+.about {
 	text-align: center;
 	font-size: 18px;
-	font-family: italic;
-
-	/*padding: 0px 38px;*/
-	
+	font-family: italic;	
 }
 
 .Head{
@@ -206,8 +204,7 @@ nav i {
 	font-size: 28px;
 	font-weight: bold;
 }
-hr.headLine{
-}
+
 .skillTitle{
 	font-weight: bold;
 	font-size: 20px;
@@ -261,7 +258,7 @@ figure h4{
 
 .break{
     /* Set a specific height */
-	min-height: 0px;
+	min-height: 5px;
 	/* choose a image*/
  	/*background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");*/
 	/*background-image: url("images/code.jpg");*/
@@ -299,8 +296,7 @@ footer.container {
 }
 
 footer {
-/*	margin-right: -40px;
-*/	width: 100%;
+	width: 100%;
 	position: absolute;
 }
 footer i{
