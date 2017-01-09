@@ -225,9 +225,9 @@ h3.resumeTitle{
 .skills li {
 	/*text-align: center;*/
 	list-style: none;
-	padding: 7px;
-	padding-left: 0px;
+	padding: 10px 0px 10px 0px;
 	font-size: 16px;
+	margin-right: 30px;
 }
 .skills h4 ul{
 	text-align: center;
@@ -258,7 +258,9 @@ figure h4{
 
 .break{
     /* Set a specific height */
-	min-height: 5px;
+	min-height: 3px;
+	margin: 50px 0px 60px 0px;
+	
 	/* choose a image*/
  	/*background-image: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg");*/
 	/*background-image: url("images/code.jpg");*/
