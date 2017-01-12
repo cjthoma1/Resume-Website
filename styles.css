@@ -195,6 +195,10 @@ nav i {
 	font-size: 18px;
 	font-family: italic;	
 }
+div.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
 
 .Head{
 	
