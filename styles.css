@@ -242,12 +242,13 @@ img{
 	height: 200px;
 	width: 230px;
 	margin: 10px;
+	transition:transform 0.5s;
 }
 img.replayFX{
 	height: 200px;
 	width: 270px;
 	margin: 10px;
-	
+	 transition:transform 0.5s;
 }
 img.welcome{
 	border-radius: 50%;
