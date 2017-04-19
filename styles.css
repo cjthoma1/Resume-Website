@@ -250,7 +250,7 @@ img{
 	margin: 10px;
 	transition:transform 0.5s;
 }
-img.replayFX{
+.resizeImg{
 	height: 200px;
 	width: 270px;
 	margin: 10px;
